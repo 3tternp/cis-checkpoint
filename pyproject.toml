@@ -1,0 +1,13 @@
+[project]
+name = "checkpoint-cis-gui"
+version = "0.1.0"
+description = "Evidence-driven Check Point Gaia configuration audit GUI"
+requires-python = ">=3.10"
+dependencies = ["Flask>=3.0,<4"]
+
+[project.scripts]
+checkpoint-cis-gui = "checkpoint_audit.app:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
